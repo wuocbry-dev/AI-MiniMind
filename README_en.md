@@ -1,6 +1,6 @@
-# MiniMind- Bản dịch tiếng anh của QuocBry
-# Tác giả chính:Jingyao Gong 2024
-# Tác giả Việt hóa và bổ sung:QuocBry 2026
+# MiniMind - English translation by QuocBry
+# Main author: Jingyao Gong 2024
+# Vietnamese translator and supplement: QuocBry 2026
 
 ## What MiniMind Provides
 

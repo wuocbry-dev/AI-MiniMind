@@ -1,4 +1,6 @@
-# MiniMind
+# MiniMind- Bản dịch tiếng việt của QuocBry
+# Tác giả chính:Jingyao Gong 2024
+# Tác giả Việt hóa và bổ sung:QuocBry 2026
 
 ## MiniMind cung cấp những gì?
 
@@ -535,8 +537,8 @@ MiniMind đã được dùng hoặc nhắc tới trong một số nghiên cứu 
 ```bibtex
 @misc{minimind,
   title = {MiniMind: Train a Tiny LLM from Scratch},
-  author = {QuocBry},
-  year = {2026},
+  author = {Jingyao Gong},
+  year = {2024},
   note = {GitHub repository, accessed 2026}
 }
 ```
