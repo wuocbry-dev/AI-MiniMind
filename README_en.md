@@ -1,4 +1,6 @@
-# MiniMind
+# MiniMind- Bản dịch tiếng anh của QuocBry
+# Tác giả chính:Jingyao Gong 2024
+# Tác giả Việt hóa và bổ sung:QuocBry 2026
 
 ## What MiniMind Provides
 
@@ -89,7 +91,7 @@ pip install -r requirements.txt
 
 ```bash
 # Download the model with ModelScope
-modelscope download --model gongjy/minimind-3 --local_dir ./minimind-3
+modelscope download --model QuocBry/minimind-3 --local_dir ./minimind-3
 
 # Inference with the Transformers-format model
 python eval_llm.py --load_from ./minimind-3
@@ -585,8 +587,8 @@ The Chinese book title in the original file is translated as:
 ```bibtex
 @misc{minimind,
   title = {MiniMind: Train a Tiny LLM from Scratch},
-  author = {QuocBry},
-  year = {2026},
+  author = {Jingyao Gong},
+  year = {2024},
   note = {GitHub repository, accessed 2026}
 }
 ```
