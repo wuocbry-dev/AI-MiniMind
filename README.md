@@ -1,18 +1,4 @@
-# MiniMind - Bản README tiếng Việt đã lược bỏ liên kết
-
-> Bản này được biên soạn lại từ `README.md`. Nội dung tiếng Trung đã được dịch sang tiếng Việt, các URL/liên kết/huy hiệu/hình ảnh đã được bỏ, chỉ giữ các thông tin quan trọng để đọc và sử dụng nhanh.
-
-## Khẩu hiệu
-
-"Đại đạo chí giản" - con đường lớn thường bắt đầu từ sự đơn giản.
-
-## Giới thiệu dự án
-
-MiniMind là một dự án mã nguồn mở nhằm huấn luyện một mô hình ngôn ngữ rất nhỏ, khoảng 64 triệu tham số, hoàn toàn từ đầu. Mục tiêu của dự án là giúp người học hiểu toàn bộ quy trình xây dựng một mô hình ngôn ngữ lớn ở quy mô nhỏ, thay vì chỉ sử dụng các thư viện đóng gói sẵn hoặc tinh chỉnh mô hình có sẵn.
-
-Dự án nhấn mạnh việc học thông qua thực hành: đọc mã nguồn, hiểu từng bước xử lý dữ liệu, huấn luyện, tinh chỉnh, đánh giá và triển khai mô hình. Với mô hình nhỏ, người dùng cá nhân có thể thử nghiệm trên GPU phổ thông như NVIDIA RTX 3090 với chi phí thấp.
-
-Dự án được phát hành theo giấy phép Apache 2.0 và miễn phí sử dụng. Con số "2 giờ" trong mô tả gốc chỉ thời gian chạy 1 epoch của giai đoạn SFT trên một GPU NVIDIA 3090; con số "3 CNY" là chi phí thuê GPU tương ứng trong khoảng thời gian đó.
+# MiniMind
 
 ## MiniMind cung cấp những gì?
 
@@ -91,14 +77,6 @@ Dự án được phát hành theo giấy phép Apache 2.0 và miễn phí sử 
 
 ## Bắt đầu nhanh
 
-### Cấu hình phần cứng/phần mềm tham khảo
-
-- CPU: Intel Core i9-10980XE 3.00GHz
-- RAM: 128 GB
-- GPU: NVIDIA GeForce RTX 3090 24GB × 8
-- Ubuntu 20.04
-- CUDA 12.2
-- Python 3.10.16
 
 ### Bước 0: cài đặt
 
@@ -112,7 +90,7 @@ pip install -r requirements.txt
 
 ```bash
 # Tải mô hình bằng ModelScope
-modelscope download --model gongjy/minimind-3 --local_dir ./minimind-3
+modelscope download --model QuocBry/minimind-3 --local_dir ./minimind-3
 
 # Suy luận với mô hình định dạng Transformers
 python eval_llm.py --load_from ./minimind-3

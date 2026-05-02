@@ -1,18 +1,4 @@
-# MiniMind - Clean English README without links
-
-> This file was rebuilt from `README_en.md`. Any remaining Chinese text has been translated into English. URL links, badges, linked images, and non-essential link blocks have been removed. Only the important project information is kept.
-
-## Motto
-
-"The Great Way is Simple."
-
-## Project Introduction
-
-MiniMind is an open-source project for training an ultra-small language model, about 64M parameters, entirely from scratch. Its purpose is to make the full LLM workflow understandable and reproducible at a small scale, instead of only relying on highly abstract training frameworks or fine-tuning existing large models.
-
-The project emphasizes learning by practice: reading the source code, understanding data processing, pretraining, supervised fine-tuning, alignment, evaluation, and deployment. Because the model is small, individual developers can experiment on ordinary personal GPUs such as an NVIDIA RTX 3090 at a low cost.
-
-The project is released under the Apache 2.0 license and is free to use. The original "2 hours" claim refers to running one SFT epoch on a single NVIDIA 3090. The original "3 CNY" claim refers to the corresponding GPU rental cost for that time period.
+# MiniMind
 
 ## What MiniMind Provides
 
@@ -90,15 +76,6 @@ The project is released under the Apache 2.0 license and is free to use. The ori
 - The project was first open-sourced on 2024-08-27.
 
 ## Quick Start
-
-### Reference Hardware and Software
-
-- CPU: Intel Core i9-10980XE 3.00GHz
-- RAM: 128 GB
-- GPU: NVIDIA GeForce RTX 3090 24GB × 8
-- Ubuntu 20.04
-- CUDA 12.2
-- Python 3.10.16
 
 ### Step 0: Installation
 
